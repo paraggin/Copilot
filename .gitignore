@@ -403,14 +403,11 @@ FodyWeavers.xsd
 *.bck
 *.tgz
 *.tar
-*.zip
 *.cer
 *.crt
 *.key
 *.pem
 
-.env
-.env.production
 certs/
 launchSettings.json
 config.development.yaml
@@ -450,7 +447,6 @@ _site
 .yarnrc.yml
 
 # Python Environments
-.env
 .venv
 .myenv
 env/
@@ -477,14 +473,12 @@ playwright-report/
 
 # Static Web App deployment config
 swa-cli.config.json
-webapp/build/
 webapp/node_modules/
 
 # Custom plugin files used in webapp for testing
 webapp/public/.well-known*
 
 # Auto-generated solution file from Visual Studio
-webapi/CopilotChatWebApi.sln
 
 # Files created for deployments
 /deploy/
